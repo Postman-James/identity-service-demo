@@ -4,7 +4,6 @@
   },
   "entities": {
     "collections": [
-      "../postman/collections/identity-identity-api_52176198-d578689f-f09f-4aeb-a075-665c83e8ddc2.postman_collection.json",
       "../postman/collections/Identity Service API_52176198-d5893f82-582e-41fe-b50d-f08095735e8b.postman_collection.json"
     ],
     "environments": [

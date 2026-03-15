@@ -11,6 +11,8 @@ on:
     branches:
       - main
   workflow_dispatch:  # Will be used by Argo post-sync-hook to trigger this workflow
+permissions:
+  contents: read
 
 jobs:
   publish-changes:
@@ -29,7 +31,9 @@ jobs:
         run: postman --version
 
       - name: Login to Postman
-        run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
+        env:
+          POSTMAN_API_KEY: ${{ secrets.POSTMAN_API_KEY }}
+        run: postman login --with-api-key "$POSTMAN_API_KEY"
 
       - name: Publish changes to Cloud
         run: postman workspace push -y --report-events
