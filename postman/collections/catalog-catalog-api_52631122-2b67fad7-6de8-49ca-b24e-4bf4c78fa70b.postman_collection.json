@@ -1,0 +1,65 @@
+{
+  "info": {
+    "_postman_id": "2b67fad7-6de8-49ca-b24e-4bf4c78fa70b",
+    "name": "catalog/catalog-api",
+    "description": "This collection was auto-generated via the API Catalog Onboarding process.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET /products",
+      "id": "ebb3ef7c-ae61-4eb3-88b0-60bd4b03ede9",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/products",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET /products/all",
+      "id": "fb29969b-8bb8-4dbb-addb-3f59c45f1fad",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/products/all",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "products",
+            "all"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST /products",
+      "id": "10cb0fb3-f28c-4918-b263-312a1877d87d",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/products",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "products"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
