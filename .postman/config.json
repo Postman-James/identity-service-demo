@@ -1,13 +1,13 @@
 {
   "workspace": {
-    "id": "5b230b09-0071-42f5-b2bf-346301fc0d29"
+    "id": "be509a21-b3e0-477f-b2b3-7fed9e7670ba"
   },
   "entities": {
     "collections": [
-      "../postman/collections/catalog-catalog-api_52631122-2b67fad7-6de8-49ca-b24e-4bf4c78fa70b.postman_collection.json"
+      "../postman/collections/identity-identity-api_52631122-9cc02fab-b0a6-4f82-8d10-fd6820d257bb.postman_collection.json"
     ],
     "environments": [
-      "../postman/environments/Dev_52631122-ce7eed45-e7e2-469b-bfd0-1db91970f8ca.postman_environment.json"
+      "../postman/environments/Dev_52631122-f8886bd1-bb68-49de-a667-f7ee169ca66b.postman_environment.json"
     ],
     "specs": [],
     "flows": [],
